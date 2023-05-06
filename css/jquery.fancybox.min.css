@@ -15,7 +15,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-container {
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     height: 100%;
     left: 0;
     outline: none;
@@ -110,7 +110,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-slide {
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     display: none;
     height: 100%;
     left: 0;
@@ -168,7 +168,7 @@ body.compensate-for-scrollbar {
 
 .fancybox-slide--image .fancybox-content {
     animation-timing-function: cubic-bezier(.5,0,.14,1);
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     background: transparent;
     background-repeat: no-repeat;
     background-size: 100% 100%;
